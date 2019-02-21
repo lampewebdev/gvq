@@ -41,6 +41,11 @@ class App extends Component {
       "There no longer has to be a difference between who you are and what you do.",
       "A penguin cannot become a giraffe, so just be the best penguin you can be.",
       "It’s easy to dream about it … Much harder to execute it ….Work!",
+      "I'm driven by gratitude and compassion, but I'm also a competitor.",
+      "Nobody knows anybody that's successful at all that hasn't put in serious amounts of work.",
+      "Go do your thing. You're gonna die.",
+      "It's very very simple, put yourself in a position to succeed.",
+      "You can't be heard if you're not communicating.",
       "Whether you’re 9 or 90, stop trying to fix the things you’re bad at, and focus on the things you’re good at."
     ];
     return quotes[Math.floor(Math.random() * quotes.length)];
