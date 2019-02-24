@@ -4,6 +4,7 @@ html {
   overflow: hidden;
   box-sizing: border-box;
 }
+
 .App {
   background-size: cover;
   text-align: center;
@@ -12,6 +13,7 @@ html {
   align-items: center;
   justify-content: center;
 }
+
 .header {
   height: 5vh;
   font-family: "Permanent Marker", cursive;
@@ -20,20 +22,24 @@ html {
   text-align: center;
   font-size: 3.5vh;
 }
+
 .content {
+  user-select: none;
   font-family: "Rubik", sans-serif;
   font-weight: bold;
   text-align: center;
   z-index: 1000;
   background: #fff;
   color: #000;
-  mix-blend-mode: lighten;
+  /* mix-blend-mode: lighten; */
   padding: 5vw;
   margin: 5vw;
+  position: relative;
   font-size: calc(28px + (40 - 28) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .newQuote {
+  user-select: none;
   position: absolute;
   bottom: 5%;
   font-family: "Permanent Marker", cursive;
